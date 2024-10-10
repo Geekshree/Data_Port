@@ -299,7 +299,7 @@ h3 {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    
+
     @media(max-width: 1024px) {
         flex-direction: column; /* Stack in mobile view */
     }
@@ -310,6 +310,8 @@ h3 {
         text-align: left; /* Align text to the left */
         margin-bottom: 20px;
         font-weight: bold;
+        /* Added styling for spacing */
+        margin-top: 0;
     }
 
     .holder-blue {
@@ -319,12 +321,13 @@ h3 {
 
         .left-column {
             flex: 1;
+            margin-right: 20px; /* Space between the columns */
             ul {
                 list-style-type: none; /* No bullet points */
                 gap: 10px;
-                margin-bottom: 20px;
-                padding: 0;
-
+                padding: 0; /* Reset padding */
+                margin: 0; /* Reset margin */
+                
                 li {
                     display: inline-block;
                     background-color: var(--blue-400); /* Skill button color */
@@ -332,12 +335,13 @@ h3 {
                     border-radius: 15px; /* Round edges */
                     margin-bottom: 10px;
                     color: white; /* Text color for buttons */
+                    font-size: 18px; /* Button text size */
                 }
             }
         }
-        
+
         .right-column {
-            flex: 1;
+            flex: 2; /* Adjusted to take more space */
             p {
                 margin-bottom: 20px;
                 color: var(--base); /* Text color */
