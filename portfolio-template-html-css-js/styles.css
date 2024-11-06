@@ -498,7 +498,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100px;
   overflow: hidden;
 
   display: flex;
@@ -555,23 +555,23 @@ h3 {
 
 /* Optional: Adjusting Icon Color per Tool */
 .icon-wrapper:nth-child(1) img {
-  filter: hue-rotate(180deg); /* SQL */
+  /* SQL */
 }
 
 .icon-wrapper:nth-child(2) img {
-  filter: hue-rotate(90deg); /* Python */
+/* Python */
 }
 
 .icon-wrapper:nth-child(3) img {
-  filter: hue-rotate(200deg); /* Tableau */
+ /* Tableau */
 }
 
 .icon-wrapper:nth-child(4) img {
-  filter: hue-rotate(270deg); /* Power BI */
+ /* Power BI */
 }
 
 .icon-wrapper:nth-child(5) img {
-  filter: hue-rotate(340deg); /* Excel */
+ /* Excel */
 }
 
 
