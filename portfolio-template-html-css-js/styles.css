@@ -553,29 +553,5 @@ h3 {
   filter: brightness(1.2);
 }
 
-/* Optional: Adjusting Icon Color per Tool */
-.icon-wrapper:nth-child(1) img {
-  /* SQL */
-}
-
-.icon-wrapper:nth-child(2) img {
-/* Python */
-}
-
-.icon-wrapper:nth-child(3) img {
- /* Tableau */
-}
-
-.icon-wrapper:nth-child(4) img {
- /* Power BI */
-}
-
-.icon-wrapper:nth-child(5) img {
- /* Google Looker */
-}
-
-.icon-wrapper:nth-child(6) img {
- /* Excel */
-}
 
 
